@@ -47,7 +47,7 @@ namespace HastaneRandevuSistemi
 
             Randevu newAppointment = new Randevu(date, time, selectedDoctor, selectedPatient);
             GlobalList.RandevuListesi.Add(newAppointment);
-            logLabel.Text = "Randevu oluşturuldu.";
+            logLabel.Text = "Randevu oluşturuldu..";
         }
 
         private void logLabel_Click(object sender, EventArgs e)
